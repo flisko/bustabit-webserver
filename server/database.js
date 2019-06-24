@@ -54,9 +54,10 @@ function query(query, params, callback) {
 
 exports.query = query;
 
-pg.on('error', function(err) {
+/*pg.connect('error', function(err) {
     console.error('POSTGRES EMITTED AN ERROR', err);
 });
+*/
 
 
 // runner takes (client, callback)
